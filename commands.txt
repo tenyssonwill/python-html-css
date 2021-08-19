@@ -1,1 +1,5 @@
 pip install -r requiments.txt
+flask run
+pip freeze
+sqlite3 --version
+sqlite3 blog.db < esquema.sql
